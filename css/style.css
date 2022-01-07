@@ -39,7 +39,7 @@ section {
 }
 
 .main {
-  background-image: url("imgs/bg.jpg");
+  background-image: url("../imgs/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
