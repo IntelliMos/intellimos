@@ -1,176 +1,719 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <title>INTELLIMOS</title>
+    <meta name="theme-color" content="#FFFF00">
+    <meta name="google-site-verification" content="8vq93SXw7SN1DXIC0KEuOtT8KFLhl7VANERCJek3TqM" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "e91c2131-6ff8-4101-9d42-dcc6c626f5f7",
+    });
+  });
+</script>
+    
+    <meta name="description" content="A WEB Development COMPANY">
+    <meta name="keywords" content="html, css, javascript, jquery,web Development,website">
+    <meta name="author" content="">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IntelliMos</title>
+    <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+    <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.min.css">
+    <link rel="stylesheet" href="css/vendor/aos.css">
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+    
 
-    <!-- LINKING CSS FILES -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/animate.css/animate.min.css">
-    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
 
-    <!-- LINKING JS FILES -->
-
-    <script src="/js/bootstrap js/bootstrap.min.js"></script>
-    <script src="/js/custom.js"></script>
-</head>
-
-<body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html"><img class="img1" src="/imgs/3.jpeg">
-                <p> INTELLIMOS </p>
-            </a>
-            <button class="navbar-toggler" id="menu-i" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">   
-                    <i class="fa fa-bars" style="color:#fff; font-size:28px;"></i>
-                </span>
-                        </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" id="alink" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="alink" aria-current="page" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="alink" aria-current="page" href="/work.html">Work</a>
-                    </li>
-
-
-                </ul>
-            </div>
-        </div>
+    <nav class="unslate_co--site-mobile-menu">
+      <div class="close-wrap d-flex">
+        <a href="#" class="d-flex ml-auto js-menu-toggle">
+          <span class="close-label">Close</span>
+          <div class="close-times">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+          </div>
+        </a>
+      </div>
+      <div class="site-mobile-inner"></div>
     </nav>
 
-    <main class="">
 
+    <div class="unslate_co--site-wrap">
 
+      <div class="unslate_co--site-inner">
 
+        <div class="lines-wrap">
+          <div class="lines-inner">
+            <div class="lines"></div>
+          </div>
+        </div>
+        <!-- END lines -->
+      
+      <nav class="unslate_co--site-nav site-nav-target">
 
-        <section class="first scroll-container">
+        <div class="container">
+        
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li class="has-children">
+                  <a href="#home-section" class="nav-link">Home</a>
+                  <ul class="dropdown">
+                    <li>
+                      <a href="index.html">Hero Image BG</a>
+                    </li>
+                    <li>
+                      <a href="index-video.html">Video BG</a>
+                    </li>
+                    <li>
+                      <a href="index-hero-slider.html">Hero Slider</a>
+                    </li>
+                    <li>
+                      <a href="index-sidebar-menu.html">Sidebar Menu</a>
+                    </li>
+                    <li>
+                      <a href="index-right-menu.html">Right Menu</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo">Intellimos<span>.</span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                <li><a href="#testimonial-section" class="nav-link">Testimonial</a></li>
+                <li><a href="#journal-section" class="nav-link">Journal</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
 
-            <div class="main">
-                <h1 id="fh1"></h1>
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/tanays.jpg');" id="home-section">
+        <div class="container">
+          <div class="row align-items-center">
+              
+            <div class="col-md-7 mx-auto text-center">
+              <h1 class="heading gsap-reveal-hero">INTELLIMOS</h1>
+              <h2 class="subheading gsap-reveal-hero">We Create Business, Not just a website. </h2>
             </div>
 
-        </section>
+          </div>
+        </div>
 
 
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Click here</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
 
 
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+          
+          
+          <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+          <div id="portfolio-single-holder"></div>
 
-        <section class="second scroll-container">
-            <h1 id="sh1">
-                Why Choose Us?
-            </h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm text-center" id="c1">
-                        <i class=" fa fa-paint-brush " id="icn">
-                    </i>
-                        <h2 id="ch2 text-center">
-                            Creative
-                        </h2>
-                        <p class="text-center pt-2">
-                            We create a very creative design for our clients which makes it to look attractive. An attractive design of a website targets a large audience to visit your page , so we focus on it.
-                        </p>
-                    </div>
-                    <div class="col-sm text-center " id="c2">
-                        <i class="fa fa-desktop" id="icn">
-                          </i>
-                        <h2 id="ch2 text-center">
-                            Responsive
-                        </h2>
-                        <p class="text-center p-2">
-                            We provide you a Responsive Design for your website and ensure that all the contents provided in the website are easily accessible through any of your devices.
-                        </p>
-                    </div>
-                    <div class="col-sm text-center" id="c3">
-                        <i class="fa fa-money" id="icn">
-                     </i>
-                        <h2 id="ch2 text-center">
-                            Cost Effective
-                        </h2>
-                        <p class="text-center p-2">
-                            The designs that we create are at very affordable prices and are also cost-effective , we value your money so we try to give our best for you.
-                        </p>
-                    </div>
+          <div class="portfolio-wrapper">
 
+            <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio's</span></h2>
+
+              <!-- <a href="#" class="text-white js-filter d-inline-block d-lg-none">Filter</a>
+              
+              <div class="filter-wrap">
+                <div class="filter ml-auto" id="filters">
+                  <a href="#" class="active" data-filter="*">All</a>
+                  <a href="#" data-filter=".web">Web</a>
+                  <a href="#" data-filter=".branding">Branding</a>
+                  <a href="#" data-filter=".illustration">Illustration</a>
+                  <a href="#" data-filter=".packaging">Packaging</a>
                 </div>
+              </div> -->
+            </div>
+
+
+            
+            <div id="posts" class="row gutter-isotope-item">
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Shoe Rebranding</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img src="images/work_1_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="3">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Reworking</h3>
+                        <p>branding, packaging, illustration</p>
+                      </div>
+                    </div>
+                    <img src="images/work_2_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-4.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page" data-id="4">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Modern Building</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_3_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              <div class="item web packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+
+                <a href="images/work_4_full.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Watch">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Watch</h3>
+                        <p>web, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_4_full.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+
+              </div>
+
+              <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_5_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Shoe Rebranding">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Shoe Rebranding</h3>
+                        <p>illustration, packaging</p>
+                      </div>
+                    </div>
+                    <img src="images/work_5_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="2">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-link2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Reshape</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    <img src="images/work_9_a_md.jpg" class="lazyload  img-fluid" alt="Images" />
+                  </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_7_a_md.jpg" class="portfolio-item item-portrait isotope-item gsap-reveal-img " data-fancybox="gallery" data-caption="Modern Building">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Modern Building</h3>
+                        <p>branding, packaging</p>
+                      </div>
+                    </div>
+                    
+                  </a>
+              </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Showreel 2019">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-play_circle_filled"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Showreel 2019</h3>
+                        <p>web, branding</p>
+                      </div>
+                    </div>
+                    
+                  </a>
+              </div>
+
+              <div class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_9_a_md.jpg" class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery" data-caption="Render Packaging">
+                    <div class="overlay">
+                      <span class="wrap-icon icon-photo2"></span>
+                      <div class="portfolio-item-content">
+                        <h3>Render Packaging</h3>
+                        <p>web, illustration</p>
+                      </div>
+                    </div>
+                    
+                  </a>
+              </div>
 
             </div>
-        </section>
+            
+          </div>
 
 
-        <section claas="h-3 scroll-container">
-            <h1 id="s3h1" cla>Our Speciality</h1>
-            <p class="s3p"> The team of Intellimos is very small but the knowledge of these intellians is apprecitable , we only not a provide a website for our client but also we ensure that they are fully satisfied with our service , because for us client's personal
-                opinion matters . Our team has people who have a knowledge of many languages and also experience of work. We think a lot before starting any project so that we can create a unique template for our client that is attractive , responsive
-                and well-functioning , So you can also choose us and give us a chance to create a website for you!<br> We work with
+        </div>
+      </div>
 
 
-            </p>
-            <div class="container  border-show center-div">
-                <div class="row " id="row">
-                    <div class="col-4 border-show" id="c1">
-                        <i class="fab fa-html5" id="icn"></i>
-                    </div>
-                    <div class="col-4 border-show" id="c1">
-                        <i class="fab fa-css3" id="icn"></i>
-                    </div>
-                    <div class="col-4 border-show" id="c1">
-                        <i class="fab fa-wordpress " id="icn"></i>
-                    </div>
-                    <div class="col-4 border-show" id="c1">
-                        <i class="fab fa-bootstrap " id="icn"></i>
-                    </div>
-                    <div class="col-4 border-show" id="c1">
-                        <i class="fab fa-js" id="icn">
-                        </i>
-                    </div>
-                </div>
+      <div class="unslate_co--section">
+        <div class="container">
+          <div class="owl-carousel logo-slider">
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-google.png" alt="Image" class="img-fluid">
             </div>
-            <center>
-                <a href=" /work.html"><button type="button" class="btn btn-outline-light " id="btn-1">Grab Now</button></a>
-            </center>
-        </section>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-puma.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-paypal.png" alt="Image" class="img-fluid">
+            </div>
+            <div class="logo-v1 gsap-reveal">
+              <img src="images/logo-adobe.png" alt="Image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <section class="footer scroll-container">
-            <footer class="text-center text-white" style="background-color: #000000;">
-                <img src="/imgs/3.jpeg " height="150px">
-                <h1 class="text-white text-center p-4 ">INTELLIMOS</h1>
-                <a href="https://www.instagram.com/intellimos "><i class="fab fa-instagram" id="icn"></i></a>
-                <a href="https://www.github.com/intellimos "><i class="fab fa-github" id="icn"></i></a>
-                <a href="mailto:intellimos@gmail.com "><i class="fa fa-envelope" id="icn"></i></a>
-                <a href="tel:+916387657945 "><i class="fa fa-phone" id="icn"></i></a>
-                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                    © 2022 Copyright:
-                    <a class="text-reset fw-bold" href="/index.html">IntelliMos</a>
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+          
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Us</span></h2>
+            <span class="gsap-reveal">
+            <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+          
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/about_me_pic2.png" alt="Image" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">We can make it together</span></h3>
+              <p class="lead gsap-reveal">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there <a href="#">live the blind</a> texts. </p>
+              <p class="mb-4 gsap-reveal">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <p class="gsap-reveal"><a href="#" class="btn btn-outline-pill btn-custom-light">Download Theme</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="services-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Our Servise.</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Image" width="45">
                 </div>
+                <h3>Digital <br> Strategy</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Icon" width="45">
+                </div>
+                <h3>Web <br> Design</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="Image" class="img-fluid" width="45">
+                </div>
+                <h3>User <br> Experience</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+              </div> 
+            </div>
 
-            </footer>
-        </section>
-</body>
-</main>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/004-percentage.svg" alt="Image" width="45">
+                </div>
+                <h3>Web <br> Development</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/006-goal.svg" alt="Image" width="45">
+                </div>
+                <h3>WordPress <br> Solutions</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+              </div> 
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/005-line-chart.svg" alt="Image" width="45">
+                </div>
+                <h3>Mobile <br> Applications</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. </p>
+              </div> 
+            </div>
 
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section section-counter" id="skills-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Skills</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="90">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">WordPress</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="99">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">HTML/CSS</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="95">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">jQuery</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="100">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .counter -->
+
+      <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Happy Clients</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div>
+
+        <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_man_1.jpg" alt="Image">
+                <h3>Eric Ingram</h3>
+                <span class="d-block position">Product Designer @facebook</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_man_2.jpg" alt="Image">
+                <h3>Ryan Mullins</h3>
+                <span class="d-block position">Product Designer @Shopify</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </blockquote>
+              </div>
+              
+              <div class="testimonial-author-info">
+                <img src="images/person_woman_1.jpg" alt="Image">
+                <h3>Erica Miller</h3>
+                <span class="d-block position">Product Designer @Twitter</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END testimonial -->
+
+      <div class="unslate_co--section" id="journal-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Journal</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          
+          <div class="row gutter-v4 align-items-stretch">
+            <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_1.jpg" class="lazyload" alt="Image" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_2.jpg" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_3.jpg" class="lazyload" alt="Image" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_4.jpg" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="200">
+              <a href="blog-single.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>A Mounteering Guide For Beginners</h3>
+                    <p class="post-meta">By Joefrey <span class="small">&bullet;</span> 5 mins read</p>
+                  </div>
+                </div>
+                <img src="images/post_5.jpg" class="lazyload" alt="Image" />
+              </a>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+      <!-- END blog posts -->
+
+
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+            
+            <div class="col-md-6">
+              <form method="post" class="form-outline-style-v1" id="contactForm">
+                <div class="form-group row mb-0">
+
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">Name</label>
+                    <input name="name" type="text" class="form-control" id="name">
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control" id="email">
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Write your message...</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                    <div class="col-md-12 d-flex align-items-center">
+                      <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Send Message">
+                      <span class="submitting"></span>
+                    </div>
+                  </div>
+              </form>
+              <div id="form-message-warning" class="mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <a href="intellimos@gmail.com" class="contact-info-val">intellimos@gmail.com</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Phone</span>
+                  <a href="+91 6387657945" class="contact-info-val">+91 6387657945</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Address</span>
+                  <address class="contact-info-val">Gird Gonda. <br> India, 271003
+                  </address>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div> <!-- END .unslate_co-site-inner -->
+
+      <footer class="unslate_co--footer unslate_co--section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              
+              <div class="footer-site-logo"><a href="#">INTELLIMOS<span>.</span></a></div>
+
+              <ul class="footer-site-social">
+                <li><a href="https://github.com/IntelliMos/">github</a></li>
+                <li><a href="https://Instagram.com/taanayy___">Admin Instagram</a></li>
+                <li><a href="https://Instagram.com/intellimos">Instagram</a></li>
+                <li><a href="https://wam.e/918756171909">contact</a></li>
+              </ul>
+
+              <p class="site-copyright">
+                
+             
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script> All rights reserved | This template is made by <i class="icon-heart"
+                  aria-hidden="true"></i> by <a href="https://vaidic.tech" target="_blank">INTELLIMOS</a>
+              
+              
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      
+    </div>
+
+    
+    <!-- Loader -->
+    <div id="unslate_co--overlayer"></div>
+    <div class="site-loader-wrap">
+      <div class="site-loader"></div>
+    </div>
+
+    <script src="js/scripts-dist.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
 </html>
