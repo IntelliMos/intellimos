@@ -104,7 +104,7 @@ section {
 }
 
 .w-bg {
-  background-image: url("imgs/BG2.jpg");
+  background-image: url("../imgs/BG2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -125,7 +125,7 @@ section {
 }
 
 .a-bg {
-  background-image: url("imgs/BG3.jpg");
+  background-image: url("../imgs/BG3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
